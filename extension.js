@@ -55,11 +55,11 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "RaveBOT",
         language: "english",
         startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
-        startupEmoji: false, // true or false
+        startupVolume: 50, // 0-100
+        startupEmoji: true, // true or false
         chatLink: "https://rawgit.com/" + fork + "/basicBot/master/lang/en.json",
         maximumAfk: 120,
         afkRemoval: true,
@@ -92,7 +92,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "Huehuehue",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
@@ -100,7 +100,7 @@
         rulesLink: null,
         themeLink: null,
         fbLink: null,
-        youtubeLink: null,
+        youtubeLink: https://www.youtube.com/channel/UCr7svVonhQP-nwljSk3a4PQ,
         website: null,
         intervalMessages: [],
         messageInterval: 5,
