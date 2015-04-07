@@ -55,14 +55,14 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "AnimeBot",
         language: "english",
-        startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
+        startupCap: 200, // 1-200
+        startupVolume: 50, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
         chatLink: "https://rawgit.com/" + fork + "/basicBot/master/lang/en.json",
-        maximumAfk: 120,
+        maximumAfk: 10000,
         afkRemoval: true,
         maximumDc: 60,
         bouncerPlus: true,
@@ -72,10 +72,10 @@
         maximumLocktime: 10,
         cycleGuard: true,
         maximumCycletime: 10,
-        voteSkip: false,
-        voteSkipLimit: 10,
+        voteSkip: true,
+        voteSkipLimit: 5,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 600,
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
